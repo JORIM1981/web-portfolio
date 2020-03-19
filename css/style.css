@@ -1,47 +1,128 @@
 body {
   margin: 0px;
 }
+
+/*--- NAVIGATION SECTION --- */
+
 .navigation {
-  background-color: lightblue;
+  background-color: rgb(193, 210, 216);
 }
+
 .logo {
   display: inline-block;
   font-family: Catamaran;
   font-size: 20px;
   color: #111;
 }
+
 .logo {
   margin: 20px
-  
-
 }
+
 .menu {
   display: inline-block;
   font-family: Catamaran;
-  font-size: 20px;
+  font-size: 15px;
   color: #111;
 }
 
-  .menu {
+.menu {
   float: right;
   margin: 20px;
 }
+
 .menu ul {
   list-style: none;
   padding-left: 0px;
   margin: 0px;
 }
+
 .menu ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
 .menu ul li a {
   text-decoration: none;
   padding: 20px 10px 20px 10px;
 }
+
 .menu ul li a:hover {
   background-color: lightsteelblue;
   color: antiquewhite;
   transition: all 0.5s ease;
+}
+
+
+/*--- HEADER SECTION --- */
+
+header {
+  background-image: url(../images/background.jpg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 
 }
+
+header p {
+  margin: 0px;
+}
+
+.background-container {
+  text-align: center;
+  padding: 100px;
+}
+
+.background-container p {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
+}
+
+.background-container h1 {
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 25px;
+  color: #111;
+}
+
+.btn-work {
+  background-color: #85af4b;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  margin: 15px 10px;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: Catamaran;
+
+}
+
+.btn-work:hover {
+  background-color: white;
+  color: #85af4b;
+  transition: all 0.5s ease;
+}
+
+.btn-contact {
+  background-color: white;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #85af4b;
+  font-weight: bold;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: Catamaran;
+
+}
+
+.btn-contact:hover {
+  background-color: #85af4b;
+  color: white;
+  transition: all 0.5s ease;
+}
+
+
