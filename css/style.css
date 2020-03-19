@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
 }
@@ -148,6 +152,7 @@ header p {
   font-family: Catamaran;
   font-size: 25px;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .about-me h2:after {
@@ -155,6 +160,7 @@ header p {
   position: absolute;
   width: 80px;
   height: 2px;
+  margin-left: -40px;
   left: 50%;
   bottom: 0px;
   background-color: #85af4b;
@@ -177,16 +183,29 @@ header p {
   float: left;
 }
 
+.about-me .column-left {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .about-me a {
   background-color: #85af4b;
   padding: 10px 25px;
   text-decoration: none;
   color: #fff;
   border-radius: 20px;
+  font-family: Catamaran;
+  font-size: 17px;
   display: inline-block;
+  border: 1px #85af4b;
+}
+
+.about-me a:hover {
+  background-color: rgb(230, 225, 225);
+  color: #85af4b;
 }
 
 
 .about-me .column-left img {
-  max-width: 95%;
+  max-width: 100%;
 }
