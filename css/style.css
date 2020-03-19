@@ -1,13 +1,28 @@
+body {
+  margin: 0px;
+}
 .navigation {
   background-color: lightblue;
 }
-.logo, .menu {
+.logo {
   display: inline-block;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
 }
 .logo {
-  margin: 20px;
+  margin: 20px
+  
+
 }
 .menu {
+  display: inline-block;
+  font-family: Catamaran;
+  font-size: 20px;
+  color: #111;
+}
+
+  .menu {
   float: right;
   margin: 20px;
 }
