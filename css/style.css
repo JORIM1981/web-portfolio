@@ -83,7 +83,7 @@ header p {
   text-align: center;
   font-family: Catamaran;
   font-size: 20px;
-  color: #111;
+  color: white;
 }
 
 .background-container h1 {
@@ -209,4 +209,43 @@ header p {
 
 .about-me .column-left img {
   max-width: 100%;
+}
+
+
+/*--- MY SKILLS SECTION --- */
+
+.my-skills {
+  background-color: #e2e2e2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+ 
+}
+
+.my-skills h2 {
+  text-transform: uppercase;
+  position: relative;                                         
+}
+
+.my-skills h2:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #85af4b;
+}
+
+.my-skills:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.my-skills .skills-left, .my-skills .skills-center, .my-skills .skills-right {
+  width: 33.3333333333%;
+  display: inline-block;
+  float: left;
 }
