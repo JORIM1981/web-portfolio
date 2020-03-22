@@ -355,3 +355,10 @@ header p {
   color: #fff;
   font-weight: bold;
 }
+
+/*--- CONTACT SECTION --- */
+
+.social-container {
+  width: 80%;
+  margin: 0 auto;
+}
