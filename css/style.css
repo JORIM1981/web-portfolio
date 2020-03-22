@@ -224,7 +224,10 @@ header p {
 
 .my-skills h2 {
   text-transform: uppercase;
-  position: relative;                                         
+  position: relative;
+  font-family: Catamaran; 
+  font-size: 20px;
+  color: #111;                                        
 }
 
 .my-skills h2:after {
@@ -250,6 +253,9 @@ header p {
   float: left;
   padding-left: 2%;
   padding-right: 2%;
+  font-family: Catamaran;
+  font-size: 15px;
+  color: #111;
 }
 
 .my-skills i{
