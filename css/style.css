@@ -248,4 +248,11 @@ header p {
   width: 33.3333333333%;
   display: inline-block;
   float: left;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.my-skills i{
+  font-size: 60px;
+  color: #85af4b;
 }
