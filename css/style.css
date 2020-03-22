@@ -358,7 +358,122 @@ header p {
 
 /*--- CONTACT SECTION --- */
 
+.contact-section {
+  text-align: center;
+  background-color: #e2e2e2;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-section:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.contact-section h2 {
+  text-transform: uppercase;
+  font-family: Catamaran;
+  font-size: 25px;
+  color: #111;
+  padding-top: 50px;
+  margin-top: 0;
+  position: relative;
+}
+
+.contact-section h2:after {
+  content: '';
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  margin-left: -40px;
+  left: 50%;
+  bottom: 0px;
+  background-color: #85af4b;
+}
+
 .social-container {
   width: 80%;
   margin: 0 auto;
+  text-align: left;
+  font-family: Catamaran;
+}
+
+.social-container i {
+  float: left;
+  margin-top: 17px;
+  margin-right: 20px;
+  font-size: 24px;
+  color: #85af4b;
+}
+
+.column-1 p,
+.column-2 p,
+.column-3 p {
+  display: inline-block;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+  width: 33.3333333333%;
+  display: inline-block;
+  float: left;
+}
+
+.column-3 p {
+  margin-bottom: 0;
+  margin-top: 7px;
+  font-family: Catamaran;
+  font-size: 15px;
+  color: #111;
+
+}
+
+.text-bold {
+  color: #333;
+  font-weight: bold;
+}
+
+/*--- FOOTER SECTION --- */
+
+footer {
+  background-color: #777777;
+  padding: 20px 40px; 
+  
+}
+
+footer:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+footer i {
+  color: #85af4b;
+}
+
+.social {
+  float: right;
+  margin-top: 10px;
+}
+
+.social i {
+  font-size: 25px;
+  padding: 10px 10px;
+}
+
+.social i:hover {
+  color: #fff;
+  background-color: #333;
+  transition: all 0.5s ease;
+}
+
+.footer-text p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Catamaran;
+  color: #111;
+  font-size: 15px;
+  float: left;
 }
